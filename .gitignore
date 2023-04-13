@@ -1,1 +1,4 @@
+/.fleet
 /.vscode
+
+/compile_commands.json
