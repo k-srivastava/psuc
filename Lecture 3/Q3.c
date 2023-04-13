@@ -1,3 +1,6 @@
+/*
+Convert temperature from fahrenheit to celsius.
+ */
 #include <stdio.h>
 
 int main(void)

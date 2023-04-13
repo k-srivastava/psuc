@@ -1,3 +1,6 @@
+/*
+Calculate the area of the circle.
+ */
 #include <stdio.h>
 
 int main(void)

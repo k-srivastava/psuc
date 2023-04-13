@@ -1,3 +1,6 @@
+/*
+Find the largest of two numbers.
+ */
 #include <stdint.h>
 #include <stdio.h>
 
