@@ -1,6 +1,6 @@
 /*
 Add two integers 'a' and 'b' read through the keyboard. Display the result using third variable sum.
- */
+*/
 #include <stdint.h>
 #include <stdio.h>
 

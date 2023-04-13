@@ -1,6 +1,6 @@
 /*
 Display the size of the datatypes int, char, float, double, long int and long double.
- */
+*/
 #include <stdio.h>
 
 int main(void)

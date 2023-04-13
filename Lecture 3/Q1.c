@@ -1,6 +1,6 @@
 /*
 Print ASCII values.
- */
+*/
 #include <stdint.h>
 #include <stdio.h>
 
