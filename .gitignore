@@ -1,6 +1,8 @@
 /.fleet
 /.vscode
 
+/Class \Code
+
 /Lecture\ 1/Q1
 /Lecture\ 1/Q2
 /Lecture\ 1/Q3
@@ -19,5 +21,10 @@
 /Lecture\ 6/Q1
 /Lecture\ 6/Q2
 /Lecture\ 6/Q3
+
+/Lecture\ 7/Q1
+/Lecture\ 7/Q2
+/Lecture\ 7/Q3
+/Lecture\ 7/Q4
 
 /compile_commands.json
