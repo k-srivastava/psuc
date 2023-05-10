@@ -2,6 +2,7 @@
 /.vscode
 
 /Class \Code
+/Assignment
 
 /Lecture\ 1/Q1
 /Lecture\ 1/Q2
@@ -35,5 +36,10 @@
 /Lecture\ 9/Q2
 /Lecture\ 9/Q3
 /Lecture\ 9/Q4
+
+/Lecture\ 10/Q1
+/Lecture\ 10/Q2
+/Lecture\ 10/Q3
+/Lecture\ 10/Q4
 
 /compile_commands.json
