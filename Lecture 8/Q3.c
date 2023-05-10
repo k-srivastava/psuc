@@ -35,7 +35,7 @@ int main(void)
     
     printf("\n");  // Clean up the terminal output.
     for (uint16_t i = 0; i < effective_length; i++)
-        {
+    {
         printf("Enter the %u-th number: ", i);
         scanf("%u", &numbers[i]);
     }
