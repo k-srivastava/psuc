@@ -43,7 +43,7 @@ int main(void)
     {
         names[i] = (char*) malloc(max_length * sizeof(char));
       
-        printf("Enter the %zu-th number: ", i);
+        printf("Enter the %zu-th name: ", i);
         scanf("%s", names[i]);
     }
     printf("\n");  // Clean up the terminal output.
