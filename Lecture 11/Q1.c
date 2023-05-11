@@ -13,14 +13,6 @@ typedef struct
     uint32_t marks[3];
 } Student;
 
-void init_student(Student* student, char* name, uint32_t marks_1, uint32_t marks_2, uint32_t marks_3)
-{
-    student->name = name;
-    student->marks[0] = marks_1;
-    student->marks[1] = marks_2;
-    student->marks[2] = marks_3;
-}
-
 uint32_t get_total(Student* student)
 {
     return student->marks[0] + student->marks[1] + student->marks[2];
