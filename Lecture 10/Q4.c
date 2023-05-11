@@ -55,5 +55,11 @@ int main(void)
         printf("%zu: '%s'\n", i, names[i]);
     }
     
+    // Clean-up the allocated names array memory.
+    for (size_t i = 0; i < length; i++)
+    {
+        free(names[i]);
+    }
+
     return 0;
 }
