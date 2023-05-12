@@ -95,11 +95,11 @@ void interchange_diagonals(const size_t rows, const size_t columns, int32_t matr
 {
     assert(rows == columns);
   
-    for (size_t i = 0, j = 0, k = rows - 1; i < rows; i++, j++, k--)
+    for (size_t i = 0; i < rows; i++)
     {
-        int32_t temp = matrix[i][j];
-        matrix[i][j] = matrix[i][k];
-        matrix[i][k] = temp;
+        int32_t temp = matrix[i][i];
+        matrix[i][i] = matrix[i][columns - (i + 1)];
+        matrix[i][columns - (i + 1)] = temp;
     }
 }
 
